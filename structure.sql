@@ -23,7 +23,7 @@ CREATE TABLE `sa_characters` (
 --
 
 CREATE TABLE `sa_users` (
-  `id` int(11) NOT NULL,
+  `aid` int(11) NOT NULL,
   `login` varchar(24) CHARACTER SET utf8 NOT NULL DEFAULT 'u_000000',
   `password` varchar(64) NOT NULL DEFAULT 'haslo',
   `rank` int(1) NOT NULL DEFAULT '0',
